@@ -1,15 +1,12 @@
-// Use this file to set SASS variables for @edx/paragon
-// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
-// Primary and secondary brand colors
-$primary : #CC00CC; // Branding primary color set to #CC00CC
-$secondary: #ac03ac; // Replace with your branding secondary color hex code
-// // Font family settings (optional, based on availability)
-// $font-family-sans-serif: 'Helvetica Neue', Arial, sans-serif !default;
-// $font-family-title: 'Helvetica Neue', Arial, sans-serif;
+$primary: #CC00CC;
+$primary-light: #F2F7F8;
+$light-dark: #374151;
+$text-color: #111827;
+$text-color-primary: #515661;
+$text-color-light: #515661;
+$secondary: #ac03ac; // Replace with your branding secondary color
 
-// $monospace: 'Courier New', Courier, monospace !default;
-// $serif: 'Times New Roman', Times, serif !default;
+// for toggle theme button
+$page-color-transition: transparent .2s ease, color .2s ease;
 
-// // Newer font variables
-// $f-serif: 'Times New Roman', Times, serif !default;
-// $f-monospace: 'Courier New', Courier, monospace !default;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
