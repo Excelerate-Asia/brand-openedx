@@ -22,7 +22,9 @@ html {
 // detail page
 #root {
     a.pgn__hyperlink.default-link.standalone-link.float-right {
-        display: none !important;
+        img {
+            display: none !important;
+        }
     }
     .x-small {
         font-size: 14px;
