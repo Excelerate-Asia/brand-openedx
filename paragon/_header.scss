@@ -119,6 +119,16 @@
             }
         }
     }
+    
+    
+    .pgn__action-row {
+        .pgn__hyperlink {
+            display: none;
+       }
+    }
+    
+    
+    
     header.site-header-desktop {
         z-index: 30;
         height: auto;
@@ -146,7 +156,7 @@
                 margin: 0 18px 0 0 !important;
             }
             img {
-                height: 21px;
+                height: 42px;
             }
        }
         .main-nav {
